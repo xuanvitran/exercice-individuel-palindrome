@@ -45,3 +45,14 @@ function isValidDate(date) {
 
 console.log('result:', isValidDate("30/06/2024"));
 // isValidDate("03/14/2001");
+
+
+
+// un bon debut de l'etape 2
+const maDate = "30/02/2011";
+const maDateSansSlash = maDate.replaceAll("/", "");
+const maDateReverse = maDateSansSlash.split('').reverse().join('');
+
+console.log('maDate:', maDate);
+console.log('maDateSansSlash:', maDateSansSlash, typeof maDateSansSlash);
+console.log('maDateReverse:', maDateReverse);
